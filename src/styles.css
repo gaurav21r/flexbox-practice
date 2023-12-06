@@ -1,3 +1,45 @@
+* {
+  margin: 0;
+  padding:0;
+  box-sizing: border-box;
+}
 body {
-  font-family: sans-serif;
+  font-family: Roboto, Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+}
+
+.flex-container {
+  padding: 10px;
+  background-color:azure;
+}
+
+.box {
+  background-color: white;
+  border: 1px solid grey;
+  border-radius: 10px;
+  padding: 5px;
+  font-size: 14px;
+  text-align: center;  
+  letter-spacing: -0.3;
+  
+  
+}
+
+.flex-container{
+  display: flex;  
+  flex-direction: row-reverse;
+}
+.box {
+
+}
+#box1{
+  
+  background-color: transparent;
+  font-size: 20px;
+  font-weight: 900;
+}
+
+#box2 {
 }
