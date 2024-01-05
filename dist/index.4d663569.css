@@ -51,4 +51,19 @@ body {
   border-color: #43a047;
 }
 
+.flex-container {
+  flex-direction: column;
+  justify-content: center;
+  display: flex;
+}
+
+.box {
+  height: 40px;
+}
+
+#box1 {
+  height: 80px;
+  margin-bottom: auto;
+}
+
 /*# sourceMappingURL=index.4d663569.css.map */
